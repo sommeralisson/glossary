@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: #ededed;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    padding: 1rem;
+    font-family: sans-serif;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+dt {
+    color: darkred;
+}
+
+dd {
+    font-size: .8rem;
+}
